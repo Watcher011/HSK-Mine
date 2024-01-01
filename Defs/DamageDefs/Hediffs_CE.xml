@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Global -->
+
+  
+
+  <HediffDef>
+    <defName>MuscleSpasms</defName>
+    <label>muscle spasms</label>
+	<description>Muscle Spasms</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="CombatExtended.HediffCompProperties_FleshOnly" />
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>
+          <min>3200</min>
+          <max>4100</max>
+        </disappearsAfterTicks>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>trivial</label>
+      </li>
+      <li>
+        <minSeverity>0.2</minSeverity>
+        <label>minor</label>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.25</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.25</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.40</minSeverity>
+        <label>moderate</label>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.5</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.5</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.6</minSeverity>
+        <label>severe</label>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <setMax>0.1</setMax>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <setMax>0.1</setMax>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.8</minSeverity>
+        <label>extreme</label>
+        <lifeThreatening>true</lifeThreatening>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <setMax>0.0</setMax>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <setMax>0.0</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+ 
+</Defs>

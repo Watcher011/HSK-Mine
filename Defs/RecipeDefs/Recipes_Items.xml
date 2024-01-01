@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+<RecipeDef ParentName="GrenadeRecipeBase">
+		<defName>MakeTrapExplosive</defName>
+		<label>Создание коробки 6 мин</label>
+		<description>Создание колобки с 6 минами.</description>
+		<jobString>Создаёт набор мин.</jobString>
+		<workAmount>1000</workAmount>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Wire</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+				<li>Wire</li>
+				<li>Mechanism</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Trap2_Explosive>6</Trap2_Explosive>    
+		</products>
+	</RecipeDef>
+	
+	
+<RecipeDef ParentName="GrenadeRecipeBase">
+		<defName>MakeTrapTox</defName>
+		<label>Создание коробки 6 токсичных мин</label>
+		<description>Создание колобки с 6 токсичными минами.</description>
+		<jobString>Создаёт набор мин.</jobString>
+		<workAmount>1000</workAmount>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Wastepack</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+				<li>Wire</li>
+				<li>Mechanism</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Trap2_Tox>6</Trap2_Tox>    
+		</products>
+	</RecipeDef>
+
+<RecipeDef ParentName="GrenadeRecipeBase">
+		<defName>MakeTrapExplosiveTrank</defName>
+		<label>Создание коробки 6 шоковых мин</label>
+		<description>Создание коробки с 6 минами.</description>
+		<jobString>Создаёт набор мин.</jobString>
+		<workAmount>1000</workAmount>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+				<li>MedicineIndustrial</li>
+				<li>Mechanism</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Trap2_Trank>6</Trap2_Trank>    
+		</products>
+	</RecipeDef>
+	
+	
+	
+	<RecipeDef ParentName="GrenadeRecipeBase">
+		<defName>MakeTrapIncendiary</defName>
+		<label>Создание коробки 6 зажигательных мин</label>
+		<description>Создание колобки с 6 зажигательными минами.</description>
+		<jobString>Создаёт набор зажигательных мин.</jobString>
+		<workAmount>1000</workAmount>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Wire</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Napalm</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+			</categories>
+			<thingDefs>
+				<li>Napalm</li>
+				<li>Wire</li>
+				<li>Mechanism</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Trap2_Incendiary>6</Trap2_Incendiary>    
+		</products>
+	</RecipeDef>
+	
+	
+	
+<RecipeDef ParentName="GrenadeRecipeBase">
+		<defName>MakeTrapEMP</defName>
+		<label>Создание коробки 6 EMP мин</label>
+		<description>Создание колобки с 6 EMP минами.</description>
+		<jobString>Создаёт набор EMP мин.</jobString>
+		<workAmount>1000</workAmount>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ElectronicComponents</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+			</categories>
+			<thingDefs>
+				<li>ElectronicComponents</li>
+				<li>Mechanism</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Trap2_EMP>6</Trap2_EMP>    
+		</products>
+	</RecipeDef>	
+	
+	
+	
+	<RecipeDef ParentName="GrenadeRecipeBase">
+		<defName>MakeTrapAE</defName>
+		<label>Создание коробки 6 Гранульных мин</label>
+		<description>Создание колобки с 6 Гранульными минами.</description>
+		<jobString>Создаёт набор Гранульных мин.</jobString>
+		<workAmount>1000</workAmount>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Prometheum</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+			</categories>
+			<thingDefs>
+				<li>FSX</li>
+				<li>Prometheum</li>
+				<li>ComponentSpacer</li>
+				<li>Mechanism</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Trap2_AE>6</Trap2_AE>      
+		</products>
+	</RecipeDef>	
+
+
+
+
+ <RecipeDef>
+		<defName>MakeTrapKapk</defName>
+		<label>Создание коробки с 10 капканами</label>
+		<description>Создание коробки с 10 капканами.</description>
+		<jobString>Создаёт набор капканов.</jobString>
+		<workAmount>1000</workAmount>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<recipeUsers>
+			<li>FueledSmithy</li>
+			<li>ElectricSmithy</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Wire</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+			</categories>
+			<thingDefs>
+				<li>Wire</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<TrapKapk>10</TrapKapk>    
+		</products>
+	</RecipeDef>
+</Defs>

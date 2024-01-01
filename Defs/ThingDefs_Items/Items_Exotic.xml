@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+<ThingDef ParentName="SK_ResourceBase">
+		<defName>Trap2_Explosive</defName>
+		<label>Коробка с минами</label>
+		<description>Коробка мин.Взрывоопасно</description>
+		<graphicData>
+			<texPath>Things/Building/MinBoxHE</texPath>
+		   <graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(1.2,1)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<fillPercent>0.35</fillPercent>
+		<stackLimit>6</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>350</MarketValue>
+			<DeteriorationRate>0.02</DeteriorationRate>
+			<Flammability>5</Flammability>
+			<Mass>3.1</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+		<li Class="CompProperties_Explosive">
+				<explosiveRadius>3.4</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.2</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>
+					<min>5</min>
+					<max>10</max>
+				</wickTicks>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>Grenades</li>
+		</thingCategories>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Trap2_Incendiary</defName>
+		<label>Коробка с зажигательными минами</label>
+		<description>Коробка зажигательных мин.Взрывоопасно</description>
+		<graphicData>
+			<texPath>Things/Building/MinBoxFL</texPath>
+		    <graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(1.2,1)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<fillPercent>0.35</fillPercent>
+		<stackLimit>6</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>350</MarketValue>
+			<DeteriorationRate>0.02</DeteriorationRate>
+			<Flammability>5</Flammability>
+			<Mass>3.1</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+		<li Class="CompProperties_Explosive">
+				<explosiveRadius>3.4</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.2</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>
+					<min>5</min>
+					<max>10</max>
+				</wickTicks>
+			</li>
+		</comps>
+		<thingCategories>
+				<li>Grenades</li>
+		</thingCategories>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Trap2_EMP</defName>
+		<label>Коробка с EMP минами</label>
+		<description>Коробка EMP мин.Взрывоопасно</description>
+		<graphicData>
+			<texPath>Things/Building/MinBoxEMI</texPath>
+		    <graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(1.2,1)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<fillPercent>0.35</fillPercent>
+		<stackLimit>6</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>350</MarketValue>
+			<DeteriorationRate>0.02</DeteriorationRate>
+			<Flammability>5</Flammability>
+			<Mass>3.1</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+		<li Class="CompProperties_Explosive">
+				<explosiveRadius>3.4</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.2</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>
+					<min>5</min>
+					<max>10</max>
+				</wickTicks>
+			</li>
+		</comps>
+		<thingCategories>
+				<li>Grenades</li>
+		</thingCategories>
+	</ThingDef>
+
+<ThingDef ParentName="SK_ResourceBase">
+		<defName>Trap2_AE</defName>
+		<label>Коробка с гранулами минами</label>
+		<description>Коробка гранульных мин.Взрывоопасно</description>
+		<graphicData>
+			<texPath>Things/Building/MinBoxAE</texPath>
+		    <graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(1.2,1)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<fillPercent>0.35</fillPercent>
+		<stackLimit>6</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>350</MarketValue>
+			<DeteriorationRate>0.02</DeteriorationRate>
+			<Flammability>5</Flammability>
+			<Mass>3.1</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+		<li Class="CompProperties_Explosive">
+				<explosiveRadius>3.4</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.2</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>
+					<min>5</min>
+					<max>10</max>
+				</wickTicks>
+			</li>
+		</comps>
+		<thingCategories>
+				<li>Grenades</li>
+		</thingCategories>
+	</ThingDef>
+
+
+<ThingDef ParentName="SK_ResourceBase">
+		<defName>Trap2_Trank</defName>
+		<label>Коробка с Шоковыми минами</label>
+		<description>Коробка шоковых мин.Взрывоопасно</description>
+		<graphicData>
+			<texPath>Things/Building/MinBoxTR</texPath>
+		    <graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(1.2,1)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<fillPercent>0.35</fillPercent>
+		<stackLimit>6</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>350</MarketValue>
+			<DeteriorationRate>0.02</DeteriorationRate>
+			<Flammability>5</Flammability>
+			<Mass>3.1</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+		<li Class="CompProperties_Explosive">
+				<explosiveRadius>0.4</explosiveRadius>
+				<explosiveDamageType>Smoke</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.2</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>
+					<min>5</min>
+					<max>10</max>
+				</wickTicks>
+			</li>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Bullet_OS84mmPara_FMJ>50</Bullet_OS84mmPara_FMJ>
+				</fragments>
+			</li>
+		</comps>
+		<thingCategories>
+				<li>Grenades</li>
+		</thingCategories>
+	</ThingDef>
+
+
+<ThingDef ParentName="SK_ResourceBase">
+		<defName>Trap2_Tox</defName>
+		<label>Коробка с токсичными минами</label>
+		<description>Коробка токсичных мин.Взрывоопасно</description>
+		<graphicData>
+			<texPath>Things/Building/MinBoxTOX</texPath>
+		    <graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(1.2,1)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<fillPercent>0.35</fillPercent>
+		<stackLimit>6</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>350</MarketValue>
+			<DeteriorationRate>0.02</DeteriorationRate>
+			<Flammability>5</Flammability>
+			<Mass>3.1</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+		<li Class="CompProperties_Explosive">
+				<explosiveRadius>0.4</explosiveRadius>
+				<explosiveDamageType>Smoke</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.2</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>
+					<min>5</min>
+					<max>10</max>
+				</wickTicks>
+			</li>
+		</comps>
+		<thingCategories>
+				<li>Grenades</li>
+		</thingCategories>
+	</ThingDef>
+
+<ThingDef ParentName="SK_ResourceBase">
+		<defName>TrapKapk</defName>
+		<label>Коробка с капканами</label>
+		<description>Коробка капканов</description>
+		<graphicData>
+			<texPath>Things/Building/BoxOfTrap</texPath>
+		    <graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(1.2,1)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<fillPercent>0.35</fillPercent>
+		<stackLimit>10</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<techLevel>Neolithic</techLevel>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>50</MarketValue>
+			<DeteriorationRate>0.02</DeteriorationRate>
+			<Flammability>5</Flammability>
+			<Mass>3.1</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<thingCategories>
+				<li>Grenades</li>
+		</thingCategories>
+	</ThingDef>
+
+
+
+</Defs>
